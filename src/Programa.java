@@ -26,7 +26,7 @@ public class Programa {
         int[][] matriz3 = {{0, 12, 15, 19},{22, 0, 15, 18},
                 {18, 19, 0, 21},{23, 19, 12, 0}};
 
-        int[][] matriz2 = {{0, 2, 5, 9},{12, 0, 5, 10},
+        int[][] matriz2 = {{0, 2, 5, 9},{12, 0, 15, 10},
                 {8, 9, 0, 12},{12, 9, 1, 0}};
         String[] nodos = {"A", "B", "X", "Y"};
         algoritmoFloyd.calcularRutaMasCorta(matriz2, nodos);
